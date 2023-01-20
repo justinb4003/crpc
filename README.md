@@ -34,4 +34,6 @@ You'll want PC fans of the 120mm size for this. If you're unsure here's the set 
 
 For a power supply I grabbed this: https://smile.amazon.com/gp/product/B071FNN9W7 which can output 1 amp of power. That is enough to run 4 of the above fans at max speed.
 
+I left holes in the fan mounting plate for 4mm machine screws but 6/32 or 3mm will likely work fine. It's not a fussy operation.
+
 So, for about $25, a bit of filament, and the cost of your filters and you're in business with a decent quality and nearly silent air filter.
