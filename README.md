@@ -18,7 +18,7 @@ Devices like this are also used in wood shops to capture small particles. I thou
 ## 3D printing the frame
 There are 3 types of parts you need to print. A plate for holding each fan, which are sized at 121mm wide to give just a little bit of wiggle room for the fan to be out of spec with 120mm.  You'll also want to print some corner piece for the corners. A couple sizes are pre-generated for you. Last is the 'nofan' file which is a solid plate that is used to fill in between the corners and wherever you have a fan.
 
-A quick and dirty way of doing is print the fan plate, print the corner plates of 25mm size, and a few 25mm nofan plates. You can then use tape to cover the holes left behind.
+A quick and dirty way of doing it is to print the fan plate, print the corner plates of 25mm size, and a few 25mm nofan plates. You can then use tape to cover the holes left behind.
 
 Or if you want it more solid, print the fan plates you need print the larger corner pieces, and use the nofan_plate_100mm and size it to whatever you need to. Being 100mm wide it's easy to figure out how to scale it. Need a 37mm section. That's 37% in the proper axis.
 
