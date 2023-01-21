@@ -13,7 +13,12 @@ https://covid19crowd.com/cr-boxes/
 Devices like this are also used in wood shops to capture small particles. I thought I'd build a small one for home because I have chickens in my office right now (yes, seriously) and they kick up a bit of dust with the food and straw and what not.
 
 ![image](https://user-images.githubusercontent.com/16728804/213598181-c88eb7aa-8c2a-4248-a903-06b4e2bde62a.png)
-(A partially completed version. You can see the fan plate, corner plate, a 25mm wide plate, and a 120mm wide one on the bottom)
+
+*(A partially completed version. You can see the fan plate, corner plate, a 25mm wide plate, and a 120mm wide one on the bottom)*
+
+![image](https://user-images.githubusercontent.com/16728804/213843588-e4caa7d7-2288-474f-bbc5-1ae52c98d07c.png)
+
+*(A more completed box with 65mm corner plates, 121mm fan plate, and non-fan plate stretched to 120mm on the other three sides)*
 
 ## 3D printing the frame
 There are 3 types of parts you need to print. A plate for holding each fan, which are sized at 121mm wide to give just a little bit of wiggle room for the fan to be out of spec with 120mm.  You'll also want to print some corner piece for the corners. A couple sizes are pre-generated for you. Last is the 'nofan' file which is a solid plate that is used to fill in between the corners and wherever you have a fan.
