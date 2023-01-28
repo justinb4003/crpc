@@ -20,6 +20,9 @@ Devices like this are also used in wood shops to capture small particles. I thou
 
 *(A more completed box with 65mm corner plates, 121mm fan plate, and non-fan plate stretched to 120mm on the other three sides)*
 
+![image](https://user-images.githubusercontent.com/16728804/215230454-f9d4989f-f56c-450d-9818-92febf95991f.png)
+*(A completed box on the right with white duck tape used to cover all seams. This is built with the currently published 4mm thick plates. The one on the left is a test in progress using 2mm thick plates.)
+
 ## 3D printing the frame
 There are 3 types of parts you need to print. A plate for holding each fan, which are sized at 121mm wide to give just a little bit of wiggle room for the fan to be out of spec with 120mm.  You'll also want to print some corner piece for the corners. A couple sizes are pre-generated for you. Last is the 'nofan' file which is a solid plate that is used to fill in between the corners and wherever you have a fan.
 
