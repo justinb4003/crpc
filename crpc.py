@@ -68,7 +68,7 @@ cq.exporters.export(fan_plate, f'output/slim_cr_fanplate_{fan_width}mm.step')
 
 
 # Create plates without a fan.  The 100mm one is easy to resize by percentage.
-for nofan_width in [20]:
+for nofan_width in [25, 51, 53]:
     nofan_plate = (
         cq.Workplane("XY")
           .rect(nofan_width, fan_width)
@@ -89,7 +89,8 @@ for nofan_width in [20]:
                         f'output/slim_cr_nofanplate_{nofan_width}mm.stl')
     cq.exporters.export(nofan_plate,
                         f'output/slim_cr_nofanplate_{nofan_width}mm.step')
-    """
+    if nofan_width < 30:
+        continue  # too small to put a hole in
     cord_hole_od = 18.5
     nut_max_od = 28
     nut_shave = (
@@ -109,10 +110,9 @@ for nofan_width in [20]:
                         f'output/slim_cr_nofanplate_cord_hole_{nofan_width}mm.stl')
     cq.exporters.export(nofan_plate_with_hole,
                         f'output/slim_cr_nofanplate_cord_hole_{nofan_width}mm.step')
-    """
 
 
-for corner_width in [25, 37, 50, 65, 100]:
+for corner_width in [25, 30, 50, 65, 100]:
     corner_plate = (
         cq.Workplane("XY")
           .rect(corner_width, fan_width)
