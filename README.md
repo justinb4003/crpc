@@ -2,7 +2,7 @@
 
 Some links to explain what a CR box is:
 
-Here's a page featuring a lot of the original design: 
+Here's a page featuring a lot of the original design:
 https://cleanaircrew.org/box-fan-filters/
 
 Next is a showing that it works well with a 10" filter setup: https://www.texairfilters.com/a-mini-corsi-rosenthal-box-air-cleaner/
@@ -24,7 +24,7 @@ Devices like this are also used in wood shops to capture small particles. I thou
 *(A completed box on the right with white duck tape used to cover all seams. This is built with the currently published 4mm thick plates. The one on the left is a test in progress using 2mm thick plates.)*
 
 ## 3D printing the frame
-There are 3 types of parts you need to print. A plate for holding each fan, which are sized at 121mm wide to give just a little bit of wiggle room for the fan to be out of spec with 120mm.  You'll also want to print some corner piece for the corners. A couple sizes are pre-generated for you. Last is the 'nofan' file which is a solid plate that is used to fill in between the corners and wherever you have a fan.
+There are 3 types of parts you need to print. A plate for holding each fan, which are sized at 120mm wide for full sized fans or the slim80 versions for a 80mm fan version that requires no screws.  You'll also want to print some corner pieces. A couple sizes are pre-generated for you. Last is the 'nofan' file which is a solid plate that is used to fill in between the corners and wherever you have a fan.
 
 A quick and dirty way of doing it is to print the fan plate, print the corner plates of 25mm size, and a few 25mm nofan plates. You can then use tape to cover the holes left behind.
 
