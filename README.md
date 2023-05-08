@@ -23,6 +23,11 @@ Devices like this are also used in wood shops to capture small particles. I thou
 ![image](https://user-images.githubusercontent.com/16728804/215230454-f9d4989f-f56c-450d-9818-92febf95991f.png)
 *(A completed box on the right with white duck tape used to cover all seams. This is built with the currently published 4mm thick plates. The one on the left is a test in progress using 2mm thick plates.)*
 
+![cr80_inside](https://user-images.githubusercontent.com/16728804/236719632-970bf902-6574-435f-ba78-d6fdc7d965c5.jpg)
+![cr80_front_open](https://user-images.githubusercontent.com/16728804/236719923-e6aa271b-a631-43fb-b6d4-547af93f268b.jpg)
+
+*(An 80mm PC fan version that requires no screws)*
+
 ## 3D printing the frame
 There are 3 types of parts you need to print. A plate for holding each fan, which are sized at 120mm wide for full sized fans or the slim80 versions for a 80mm fan version that requires no screws.  You'll also want to print some corner pieces. A couple sizes are pre-generated for you. Last is the 'nofan' file which is a solid plate that is used to fill in between the corners and wherever you have a fan.
 
@@ -38,7 +43,11 @@ The originals were geneated with CadQuery 2.0 (https://cadquery.readthedocs.io/e
 
 ## Fans and Power
 
-You'll want PC fans of the 120mm size for this. If you're unsure here's the set I purchased: https://smile.amazon.com/gp/product/B08R8M17S2 which have the 4 pin and 3 pin connectors. I can daisy-chain the 4 pin connectors together and apply power to one and they all fire up.
+For the 80mm builds I used thse fans: https://www.amazon.com/gp/product/B09B6SZ8XY and if you want 4 fans a power panel like this is handy: https://www.amazon.com/dp/B07M5P7VHG but you can run up to 3 fans without the panel using a supply like this: https://www.amazon.com/gp/product/B09V1BMSVP
+
+I find 4 80mm fans make some noticable noise but it's about whisper level. 
+
+For the 120m builds if you're unsure here's the set I purchased: https://smile.amazon.com/gp/product/B08R8M17S2 which have the 4 pin and 3 pin connectors. I can daisy-chain the 4 pin connectors together and apply power to one and they all fire up.
 
 For a power supply I grabbed this: https://smile.amazon.com/gp/product/B071FNN9W7 which can output 1 amp of power. That is enough to run 4 of the above fans at max speed.
 
