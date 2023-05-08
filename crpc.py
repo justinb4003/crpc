@@ -168,20 +168,20 @@ for nofan_width in [80, 100, 160]:
                         f'output/slim80_cr_nofanplate_cord_hole_{nofan_width}mm.step')
 
 
-for corner_width in [25, 30, 50, 65, 100]:
+for corner_width in [45]:
     corner_plate = (
         cq.Workplane("XY")
-          .rect(corner_width, fan_width)
+          .rect(corner_width, fan_width + filter_width*2 + rib_width*4)
           .extrude(plate_depth)
           .faces(">Z")
           .center(0, total_y/2)
-          .rect(corner_width, rib_width).extrude(inner_rib_depth)
+          .rect(corner_width, rib_width).extrude(plate_depth+outer_rib_depth)
           .center(0, -(filter_width+rib_width))
-          .rect(corner_width-0, rib_width).extrude(inner_rib_depth)
-          .center(0, -(fan_width-rib_width*2-filter_width*2))
-          .rect(corner_width-0, rib_width).extrude(inner_rib_depth)
+          .rect(corner_width, rib_width).extrude(plate_depth+inner_rib_depth)
+          .center(0, -(fan_width+rib_width*2))
+          .rect(corner_width, rib_width).extrude(plate_depth+inner_rib_depth)
           .center(0, -(filter_width+rib_width))
-          .rect(corner_width, rib_width).extrude(inner_rib_depth)
+          .rect(corner_width, rib_width).extrude(plate_depth+outer_rib_depth)
     )
     corner_plate = corner_plate.faces("<Z").edges("|X").fillet(std_fillet)
     corner_plate = corner_plate.faces(">Z").edges("|X").fillet(std_fillet)
@@ -193,6 +193,22 @@ for corner_width in [25, 30, 50, 65, 100]:
         .rotate((0, 0, 0), (0, 1, 0), 90)
         .translate((-corner_width/2, 0, corner_width/2))
     )
+    if False:
+        cord_hole_od = 18.5
+        nut_max_od = 28
+        nut_shave = (
+            corner_plate.faces("<Z")
+                        .workplane(offset=2, invert=True,
+                                centerOption='CenterOfMass')
+                        .circle(nut_max_od/2)
+                        .extrude(10, combine=False)
+        )
+        corner_plate = corner_plate.cut(nut_shave)
+        corner_plate = (
+            corner_plate.faces("<Z")
+                        .circle(cord_hole_od/2)
+                        .cutThruAll()
+        )
     corner_plate = corner_plate.union(corner)
     cq.exporters.export(corner_plate,
                         f'output/slim80_cr_corner_{corner_width}mm.stl')
