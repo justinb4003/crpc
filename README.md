@@ -12,6 +12,10 @@ https://covid19crowd.com/cr-boxes/
 
 Devices like this are also used in wood shops to capture small particles. I thought I'd build a small one for home because I have chickens in my office right now (yes, seriously) and they kick up a bit of dust with the food and straw and what not.
 
+![image](https://github.com/justinb4003/crpc/assets/16728804/3a42bc3f-837a-4c23-8d10-97212ae6fe57)
+*(A completed version with 80mm slim fans)
+
+
 ![image](https://user-images.githubusercontent.com/16728804/213598181-c88eb7aa-8c2a-4248-a903-06b4e2bde62a.png)
 
 *(A partially completed version. You can see the fan plate, corner plate, a 25mm wide plate, and a 120mm wide one on the bottom)*
